@@ -267,7 +267,7 @@ section .color:nth-child(3){
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
     background-color: #111;
 }
 
