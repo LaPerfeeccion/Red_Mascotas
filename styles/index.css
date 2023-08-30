@@ -1,0 +1,309 @@
+* {
+    font-family: cursive;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+body{
+    width: auto;
+    height: auto;
+}
+.Presentacion {
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://globalendar.com/wp-content/uploads/2023/04/fondos-de-pantalla-anime-4k-1-1-scaled.jpg);
+}
+
+.container {
+    width: 600px;
+    height: 200px;
+    margin: 200px auto;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-beige-flores-hojas_197463-3346.jpg?w=2000);
+}
+
+.glass {
+    color: #fff;
+    background: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0));
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255, 0);
+    box-shadow: 0px 8px 32px 0 black;
+    text-align: justify;
+    padding: 18px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.description_container {
+    text-align: center;
+}
+
+.tarjetas {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.containers {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+.containers .box {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: #fff;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+.containers .box:hover{
+    transform: translate(-20px);
+}
+.containers .box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(255, 82, 82), rgb(255, 36, 91));
+}
+.containers .box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(255, 54, 54),rgb(255, 56, 56));
+    filter: blur(30px);
+}
+.containers .box:nth-child(2):before
+.containers .box:nth-child(2):before
+{
+    background: linear-gradient(45deg, rgb(255, 82, 82), rgb(255, 36, 91));
+}
+.containers .box:nth-child(3):before
+.containers .box:nth-child(3):before
+{
+    background: linear-gradient(45deg, rgb(255, 82, 82), rgb(255, 36, 91));
+}
+.containers .box span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.containers .box span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+.containers .box .content {
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.containers .box h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.containers .box .animal_description {
+    font-size: 0.8em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+img {
+    
+    border-radius: 20px;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    padding: 30px;
+}
+.section_animals {
+    background-color: #111;
+}
+.Presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_Colors {
+    overflow: hidden;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,rgb(0, 0, 0), rgb(129, 12, 12));
+}
+section .color{
+    position: absolute;
+    filter: blur(150px);
+}
+section .color:nth-child(1){
+    bottom: 350px;
+    width: 600px;
+    height: 600px;
+    background: rgb(80, 2, 2);
+}
+section .color:nth-child(2){
+    bottom: -150px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: rgb(0, 0, 0);
+}
+section .color:nth-child(3){
+    bottom: 50px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    background: rgb(10, 4, 4);
+}
+.box2 {
+    position: relative;
+}
+.container2 {
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter:blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form {
+    position: relative;
+    width: 100% ;
+    height: 100% ;
+    padding: 40px;
+}
+.form h3{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.form h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #fff;
+}
+.form .imputBox {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 20px ;
+}
+.form .imputBox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px ;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.form .imputBox input::placeholder {
+    color: #fff;
+}
+.form .imputBox input[ type="submit" ]{
+    background: #fff;
+    color: #292323;
+    max-width: 200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.consejo_animal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    background-color: #111;
+}
+
+
+.consejos {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    color: #000000;
+    
+   
+}
+.consejos p {
+    display: flex;
+    align-items: center;
+}
+.Macota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Macota img{
+    width: 50%;
+}
+h4 {
+    font-size: 2em;
+    color: #fff;
+}
+footer {
+    background-color: #111;
+    padding: 20px;
+}
